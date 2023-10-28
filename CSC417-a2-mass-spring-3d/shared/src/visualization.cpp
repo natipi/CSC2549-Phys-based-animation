@@ -435,7 +435,7 @@ bool Visualize::plot_phase_space(const char *label, ImVec2 q_bounds, ImVec2 q_do
                 g_mouse_win,
                 g_viewer.core().view,
                 g_viewer.core().proj,
-                 g_viewer.core().viewport,
+                g_viewer.core().viewport,
                 g_mouse_drag_world);
         
     
@@ -446,7 +446,7 @@ bool Visualize::plot_phase_space(const char *label, ImVec2 q_bounds, ImVec2 q_do
                 g_mouse_win,
                 g_viewer.core().view,
                 g_viewer.core().proj,
-                 g_viewer.core().viewport,
+                g_viewer.core().viewport,
                 g_mouse_world);
         
 
