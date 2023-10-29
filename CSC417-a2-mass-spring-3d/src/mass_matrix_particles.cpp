@@ -9,11 +9,4 @@ void mass_matrix_particles(Eigen::SparseMatrixd &M, Eigen::Ref<const Eigen::Vect
     for (int i = 0; i < len; i++){
         M.insert(i,i) = mass;
     }
-
-    debug("after inserting mass matrix entries");
-    debug("q size: ");
-    debug(len);
-    debug("M nonzeroes: ");
-    debug(M.nonZeros());
-    
 }

@@ -11295,6 +11295,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o: /User
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/initializer_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iterator \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/limits \
@@ -11681,6 +11682,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o: /User
   /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/extern/libigl/external/eigen/Eigen/src/misc/Solve.h \
   /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/extern/libigl/external/eigen/Eigen/src/misc/SparseSolve.h \
   /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/include/dV_spring_particle_particle_dq.h \
+  /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/include/debug.h \
   /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/shared/include/EigenTypes.h
 
 CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/fixed_point_constraints.cpp \

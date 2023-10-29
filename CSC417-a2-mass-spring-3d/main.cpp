@@ -62,7 +62,6 @@ void simulate() {
             Eigen::Vector6d dV_mouse;
 
             for(unsigned int pickedi = 0; pickedi < Visualize::picked_vertices().size(); pickedi++) {   
-                std::cout << "pickedi: " << pickedi << std::endl;
                 mouse = (P.transpose()*q+x0).segment<3>(3*Visualize::picked_vertices()[pickedi]) + Visualize::mouse_drag_world() + Eigen::Vector3d::Constant(1e-6);
                 dV_spring_particle_particle_dq(dV_mouse, mouse, (P.transpose()*q+x0).segment<3>(3*Visualize::picked_vertices()[pickedi]), 0.0, (Visualize::is_mouse_dragging() ? k_selected : 0.));
                 f.segment<3>(3*Visualize::picked_vertices()[pickedi]) -= dV_mouse.segment<3>(3);
@@ -129,11 +128,7 @@ int main(int argc, char **argv) {
     find_min_vertices(fixed_point_indices, V, 3);
     P.resize(q.rows(),q.rows());
     P.setIdentity();
-    debug("P nonzeroes before setting fixed point constraints: ");debug(P.nonZeros());
     fixed_point_constraints(P, q.rows(), fixed_point_indices);
-
-    debug("fixed_point_indices length:");debug(fixed_point_indices.size());
-    debug2("edgecount: ");debug2(E.size());
 
     if(M.rows() == 0) {
         std::cout<<"mass_matrix_particles not implmented ... exiting \n";

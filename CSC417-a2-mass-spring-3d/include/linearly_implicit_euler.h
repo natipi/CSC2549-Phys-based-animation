@@ -23,42 +23,10 @@ inline void linearly_implicit_euler(Eigen::VectorXd &q, Eigen::VectorXd &qdot, d
                             Eigen::VectorXd &tmp_force, Eigen::SparseMatrixd &tmp_stiffness) {
     stiffness(tmp_stiffness, q, qdot);
     force(tmp_force, q, qdot);
-
-    debug2(tmp_force.norm());
-
-    // Eigen::SparseLU<Eigen::SparseMatrix<double> > solver;
     
     Eigen::SparseMatrix<double> a = mass - dt * dt * tmp_stiffness;
     Eigen::SimplicialCholesky<Eigen::SparseMatrix<double> > solver(a);
 
-    // debug2("dt ");debug2(dt);
-    // debug2("mass nonzeroes");debug2(mass.nonZeros());
-    // debug2("stiffness nonzeroes");debug2(tmp_stiffness.nonZeros());
-    // int massrows = mass.rows();
-    // std::cout << "mass diagonal: ";
-    // for (int i = 0; i < massrows; i++) {
-    //     std::cout << mass.coeff(i,i) << " ";
-    // }
-    // debug(" ");
-    // a.makeCompressed();
-    // std::cout << "a matrix: " << a << std::endl << std::endl << std::endl;
-    
-    // solver.compute(a);
-
-    // if(solver.info()!=Eigen::Success) {
-    //     if (solver.info()==Eigen::NumericalIssue)
-    //         debug2("numerical issue");
-    //     if (solver.info()==Eigen::InvalidInput)
-    //         debug2("invalid input ");
-    //     return;
-    // }
-
     qdot = solver.solve(mass * qdot + dt * tmp_force);
-
-    // if(solver.info()!=Eigen::Success) {
-    //     debug2("solve failed");
-    //     return;
-    // }
-
     q += dt * qdot; 
 }

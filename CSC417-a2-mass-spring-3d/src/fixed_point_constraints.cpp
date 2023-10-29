@@ -19,7 +19,4 @@ void fixed_point_constraints(Eigen::SparseMatrixd &P, unsigned int q_size, const
     }
 
     P.setFromTriplets(tripletList.begin(), tripletList.end());
-
-    debug("P nonzero entries: ");
-    debug(P.nonZeros());
 }
