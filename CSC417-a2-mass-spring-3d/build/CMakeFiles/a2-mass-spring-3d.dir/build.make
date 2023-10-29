@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d"
+CMAKE_SOURCE_DIR = /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build"
+CMAKE_BINARY_DIR = /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/a2-mass-spring-3d.dir/depend.make
@@ -70,214 +70,214 @@ include CMakeFiles/a2-mass-spring-3d.dir/progress.make
 include CMakeFiles/a2-mass-spring-3d.dir/flags.make
 
 CMakeFiles/a2-mass-spring-3d.dir/main.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/flags.make
-CMakeFiles/a2-mass-spring-3d.dir/main.cpp.o: /Users/natalia/Dropbox/CSQUEEN/David\ Levin\ Physics\ Based\ Animation\ Course/CSC417-a2-mass-spring-3d/main.cpp
+CMakeFiles/a2-mass-spring-3d.dir/main.cpp.o: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/main.cpp
 CMakeFiles/a2-mass-spring-3d.dir/main.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/main.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/main.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/main.cpp.o -c "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/main.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/main.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/main.cpp.o -c /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/main.cpp
 
 CMakeFiles/a2-mass-spring-3d.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a2-mass-spring-3d.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/main.cpp" > CMakeFiles/a2-mass-spring-3d.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/main.cpp > CMakeFiles/a2-mass-spring-3d.dir/main.cpp.i
 
 CMakeFiles/a2-mass-spring-3d.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a2-mass-spring-3d.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/main.cpp" -o CMakeFiles/a2-mass-spring-3d.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/main.cpp -o CMakeFiles/a2-mass-spring-3d.dir/main.cpp.s
 
 CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/flags.make
-CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o: /Users/natalia/Dropbox/CSQUEEN/David\ Levin\ Physics\ Based\ Animation\ Course/CSC417-a2-mass-spring-3d/src/T_particle.cpp
+CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/T_particle.cpp
 CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o -c "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/T_particle.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o -c /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/T_particle.cpp
 
 CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/T_particle.cpp" > CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/T_particle.cpp > CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.i
 
 CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/T_particle.cpp" -o CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/T_particle.cpp -o CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.s
 
 CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/flags.make
-CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o: /Users/natalia/Dropbox/CSQUEEN/David\ Levin\ Physics\ Based\ Animation\ Course/CSC417-a2-mass-spring-3d/src/V_gravity_particle.cpp
+CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/V_gravity_particle.cpp
 CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o -c "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/V_gravity_particle.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o -c /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/V_gravity_particle.cpp
 
 CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/V_gravity_particle.cpp" > CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/V_gravity_particle.cpp > CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.i
 
 CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/V_gravity_particle.cpp" -o CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/V_gravity_particle.cpp -o CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.s
 
 CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/flags.make
-CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o: /Users/natalia/Dropbox/CSQUEEN/David\ Levin\ Physics\ Based\ Animation\ Course/CSC417-a2-mass-spring-3d/src/V_spring_particle_particle.cpp
+CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/V_spring_particle_particle.cpp
 CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o -c "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/V_spring_particle_particle.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o -c /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/V_spring_particle_particle.cpp
 
 CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/V_spring_particle_particle.cpp" > CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/V_spring_particle_particle.cpp > CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.i
 
 CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/V_spring_particle_particle.cpp" -o CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/V_spring_particle_particle.cpp -o CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.s
 
 CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/flags.make
-CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o: /Users/natalia/Dropbox/CSQUEEN/David\ Levin\ Physics\ Based\ Animation\ Course/CSC417-a2-mass-spring-3d/src/assemble_forces.cpp
+CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/assemble_forces.cpp
 CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o -c "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/assemble_forces.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o -c /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/assemble_forces.cpp
 
 CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/assemble_forces.cpp" > CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/assemble_forces.cpp > CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.i
 
 CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/assemble_forces.cpp" -o CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/assemble_forces.cpp -o CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.s
 
 CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/flags.make
-CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o: /Users/natalia/Dropbox/CSQUEEN/David\ Levin\ Physics\ Based\ Animation\ Course/CSC417-a2-mass-spring-3d/src/assemble_stiffness.cpp
+CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/assemble_stiffness.cpp
 CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o -c "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/assemble_stiffness.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o -c /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/assemble_stiffness.cpp
 
 CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/assemble_stiffness.cpp" > CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/assemble_stiffness.cpp > CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.i
 
 CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/assemble_stiffness.cpp" -o CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/assemble_stiffness.cpp -o CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.s
 
 CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/flags.make
-CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o: /Users/natalia/Dropbox/CSQUEEN/David\ Levin\ Physics\ Based\ Animation\ Course/CSC417-a2-mass-spring-3d/src/d2V_spring_particle_particle_dq2.cpp
+CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/d2V_spring_particle_particle_dq2.cpp
 CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o -c "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/d2V_spring_particle_particle_dq2.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o -c /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/d2V_spring_particle_particle_dq2.cpp
 
 CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/d2V_spring_particle_particle_dq2.cpp" > CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/d2V_spring_particle_particle_dq2.cpp > CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.i
 
 CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/d2V_spring_particle_particle_dq2.cpp" -o CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/d2V_spring_particle_particle_dq2.cpp -o CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.s
 
 CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/flags.make
-CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o: /Users/natalia/Dropbox/CSQUEEN/David\ Levin\ Physics\ Based\ Animation\ Course/CSC417-a2-mass-spring-3d/src/dV_gravity_particle_dq.cpp
+CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/dV_gravity_particle_dq.cpp
 CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o -c "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/dV_gravity_particle_dq.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o -c /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/dV_gravity_particle_dq.cpp
 
 CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/dV_gravity_particle_dq.cpp" > CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/dV_gravity_particle_dq.cpp > CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.i
 
 CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/dV_gravity_particle_dq.cpp" -o CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/dV_gravity_particle_dq.cpp -o CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.s
 
 CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/flags.make
-CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o: /Users/natalia/Dropbox/CSQUEEN/David\ Levin\ Physics\ Based\ Animation\ Course/CSC417-a2-mass-spring-3d/src/dV_spring_particle_particle_dq.cpp
+CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/dV_spring_particle_particle_dq.cpp
 CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o -c "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/dV_spring_particle_particle_dq.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o -c /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/dV_spring_particle_particle_dq.cpp
 
 CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/dV_spring_particle_particle_dq.cpp" > CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/dV_spring_particle_particle_dq.cpp > CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.i
 
 CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/dV_spring_particle_particle_dq.cpp" -o CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/dV_spring_particle_particle_dq.cpp -o CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.s
 
 CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/flags.make
-CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o: /Users/natalia/Dropbox/CSQUEEN/David\ Levin\ Physics\ Based\ Animation\ Course/CSC417-a2-mass-spring-3d/src/fixed_point_constraints.cpp
+CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/fixed_point_constraints.cpp
 CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o -c "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/fixed_point_constraints.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o -c /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/fixed_point_constraints.cpp
 
 CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/fixed_point_constraints.cpp" > CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/fixed_point_constraints.cpp > CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.i
 
 CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/fixed_point_constraints.cpp" -o CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/fixed_point_constraints.cpp -o CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.s
 
 CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/flags.make
-CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o: /Users/natalia/Dropbox/CSQUEEN/David\ Levin\ Physics\ Based\ Animation\ Course/CSC417-a2-mass-spring-3d/src/mass_matrix_particles.cpp
+CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/mass_matrix_particles.cpp
 CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o -c "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/mass_matrix_particles.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o -c /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/mass_matrix_particles.cpp
 
 CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/mass_matrix_particles.cpp" > CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/mass_matrix_particles.cpp > CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.i
 
 CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/mass_matrix_particles.cpp" -o CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/mass_matrix_particles.cpp -o CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.s
 
 CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/flags.make
-CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: /Users/natalia/Dropbox/CSQUEEN/David\ Levin\ Physics\ Based\ Animation\ Course/CSC417-a2-mass-spring-3d/src/pick_nearest_vertices.cpp
+CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/pick_nearest_vertices.cpp
 CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o -c "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/pick_nearest_vertices.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o -c /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/pick_nearest_vertices.cpp
 
 CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/pick_nearest_vertices.cpp" > CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/pick_nearest_vertices.cpp > CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.i
 
 CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/src/pick_nearest_vertices.cpp" -o CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/src/pick_nearest_vertices.cpp -o CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.s
 
 CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/flags.make
-CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o: /Users/natalia/Dropbox/CSQUEEN/David\ Levin\ Physics\ Based\ Animation\ Course/CSC417-a2-mass-spring-3d/shared/src/find_min_vertices.cpp
+CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/shared/src/find_min_vertices.cpp
 CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o -c "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/shared/src/find_min_vertices.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o -c /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/shared/src/find_min_vertices.cpp
 
 CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/shared/src/find_min_vertices.cpp" > CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/shared/src/find_min_vertices.cpp > CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.i
 
 CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/shared/src/find_min_vertices.cpp" -o CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/shared/src/find_min_vertices.cpp -o CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.s
 
 CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/flags.make
-CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o: /Users/natalia/Dropbox/CSQUEEN/David\ Levin\ Physics\ Based\ Animation\ Course/CSC417-a2-mass-spring-3d/shared/src/init_state.cpp
+CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/shared/src/init_state.cpp
 CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o -c "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/shared/src/init_state.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o -c /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/shared/src/init_state.cpp
 
 CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/shared/src/init_state.cpp" > CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/shared/src/init_state.cpp > CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.i
 
 CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/shared/src/init_state.cpp" -o CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/shared/src/init_state.cpp -o CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.s
 
 CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/flags.make
-CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o: /Users/natalia/Dropbox/CSQUEEN/David\ Levin\ Physics\ Based\ Animation\ Course/CSC417-a2-mass-spring-3d/shared/src/visualization.cpp
+CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/shared/src/visualization.cpp
 CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o: CMakeFiles/a2-mass-spring-3d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o -c "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/shared/src/visualization.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o -MF CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o.d -o CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o -c /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/shared/src/visualization.cpp
 
 CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/shared/src/visualization.cpp" > CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/shared/src/visualization.cpp > CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.i
 
 CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/shared/src/visualization.cpp" -o CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/shared/src/visualization.cpp -o CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.s
 
 # Object files for target a2-mass-spring-3d
 a2__mass__spring__3d_OBJECTS = \
@@ -321,7 +321,7 @@ a2-mass-spring-3d: imgui/libimgui.a
 a2-mass-spring-3d: glad/libglad.a
 a2-mass-spring-3d: glfw/src/libglfw3.a
 a2-mass-spring-3d: CMakeFiles/a2-mass-spring-3d.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable a2-mass-spring-3d"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable a2-mass-spring-3d"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/a2-mass-spring-3d.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -333,6 +333,6 @@ CMakeFiles/a2-mass-spring-3d.dir/clean:
 .PHONY : CMakeFiles/a2-mass-spring-3d.dir/clean
 
 CMakeFiles/a2-mass-spring-3d.dir/depend:
-	cd "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d" "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d" "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build" "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build" "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles/a2-mass-spring-3d.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles/a2-mass-spring-3d.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/a2-mass-spring-3d.dir/depend
 

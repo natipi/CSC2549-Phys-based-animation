@@ -1,6 +1,19 @@
 #include <mass_matrix_particles.h>
+#include <iostream>
+#include <debug.h>
 
-// TO DO: WHY DO I NEED Q???
 void mass_matrix_particles(Eigen::SparseMatrixd &M, Eigen::Ref<const Eigen::VectorXd> q, double mass) {
-    M.diagonal().array() += mass;
+    const int len = q.size();
+    M = Eigen::SparseMatrix<double> (len, len);
+    
+    for (int i = 0; i < len; i++){
+        M.insert(i,i) = mass;
+    }
+
+    debug("after inserting mass matrix entries");
+    debug("q size: ");
+    debug(len);
+    debug("M nonzeroes: ");
+    debug(M.nonZeros());
+    
 }

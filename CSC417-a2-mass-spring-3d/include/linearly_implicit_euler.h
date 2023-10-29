@@ -1,7 +1,9 @@
 #include <Eigen/Dense>
 #include <Eigen/Sparse>
-#include<Eigen/SparseCholesky>
+#include <Eigen/SparseCholesky>
 #include <EigenTypes.h>
+#include <iostream>
+#include <debug.h>
 
 //Input:
 //  q - generalized coordiantes for the mass-spring system
@@ -22,16 +24,31 @@ inline void linearly_implicit_euler(Eigen::VectorXd &q, Eigen::VectorXd &qdot, d
     stiffness(tmp_stiffness, q, qdot);
     force(tmp_force, q, qdot);
 
-    SolverClassName<SparseMatrix<double> > solver;
-    solver.compute(mass - pow(dt, 2) * tmp_stiffness);
-    if(solver.info()!=Success) {
-        // decomposition failed
+    debug2(tmp_force.norm());
+
+    Eigen::SparseLU<Eigen::SparseMatrix<double> > solver;
+
+    Eigen::SparseMatrix<double> a = mass - dt * dt * tmp_stiffness;
+    debug2("mass nonzeroes");debug2(mass.nonZeros());
+    debug2("stiffness nonzeroes");debug2(tmp_stiffness.nonZeros());
+
+    // a.makeCompressed();
+    solver.compute(a);
+
+    if(solver.info()!=Eigen::Success) {
+        if (solver.info()==Eigen::NumericalIssue)
+            debug2("numerical issue");
+        if (solver.info()==Eigen::InvalidInput)
+            debug2("invalid input ");
         return;
     }
+
     qdot = solver.solve(mass * qdot + dt * tmp_force);
-    if(solver.info()!=Success) {
-        // solving failed
+
+    if(solver.info()!=Eigen::Success) {
+        debug2("solve failed");
         return;
     }
+
     q += dt * qdot; 
 }

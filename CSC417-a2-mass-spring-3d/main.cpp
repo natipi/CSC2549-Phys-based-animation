@@ -22,6 +22,8 @@
 #include <V_gravity_particle.h>
 #include <V_spring_particle_particle.h>
 
+#include <debug.h>
+
 //Simulation State
 bool simulating = true;
 Eigen::VectorXd q;
@@ -60,6 +62,7 @@ void simulate() {
             Eigen::Vector6d dV_mouse;
 
             for(unsigned int pickedi = 0; pickedi < Visualize::picked_vertices().size(); pickedi++) {   
+                std::cout << "pickedi: " << pickedi << std::endl;
                 mouse = (P.transpose()*q+x0).segment<3>(3*Visualize::picked_vertices()[pickedi]) + Visualize::mouse_drag_world() + Eigen::Vector3d::Constant(1e-6);
                 dV_spring_particle_particle_dq(dV_mouse, mouse, (P.transpose()*q+x0).segment<3>(3*Visualize::picked_vertices()[pickedi]), 0.0, (Visualize::is_mouse_dragging() ? k_selected : 0.));
                 f.segment<3>(3*Visualize::picked_vertices()[pickedi]) -= dV_mouse.segment<3>(3);
@@ -121,12 +124,16 @@ int main(int argc, char **argv) {
     //setup simulation 
     init_state(q,qdot,V);
     mass_matrix_particles(M, q, m);
-    
+
     //setup constraint matrix
     find_min_vertices(fixed_point_indices, V, 3);
     P.resize(q.rows(),q.rows());
     P.setIdentity();
+    debug("P nonzeroes before setting fixed point constraints: ");debug(P.nonZeros());
     fixed_point_constraints(P, q.rows(), fixed_point_indices);
+
+    debug("fixed_point_indices length:");debug(fixed_point_indices.size());
+    debug2("edgecount: ");debug2(E.size());
 
     if(M.rows() == 0) {
         std::cout<<"mass_matrix_particles not implmented ... exiting \n";
@@ -138,10 +145,10 @@ int main(int argc, char **argv) {
     }
 
     x0 = q - P.transpose()*P*q; //vector x0 contains position of all fixed nodes, zero for everything else
-    
+       
     //correct M, q and qdot so they are the right size
     q = P*q;
-    qdot = P*qdot;
+    qdot = P*qdot;   
     M = P*M*P.transpose();
 
     //run simulation in seperate thread to avoid slowing down the UI
@@ -154,7 +161,7 @@ int main(int argc, char **argv) {
     Visualize::setup(q, qdot, true);
     Visualize::add_object_to_scene(V,F, Eigen::RowVector3d(244,165,130)/255.);
     Visualize::viewer().callback_post_draw = &draw;
-    
+
     Visualize::viewer().launch_init(true,false,"Mass-Spring Systems",0,0);
     Visualize::viewer().launch_rendering(true);
     simulating = false;

@@ -4,7 +4,7 @@
 # compile C with /Library/Developer/CommandLineTools/usr/bin/cc
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I"/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/extern/libigl/external/glfw/include" -I"/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/extern/libigl/external/glfw/src" -I"/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/glfw/src"
+C_INCLUDES = -I/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/extern/libigl/external/glfw/include -I/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/extern/libigl/external/glfw/src -I/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/glfw/src
 
 C_FLAGSarm64 =  -fPIC -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -Wall
 

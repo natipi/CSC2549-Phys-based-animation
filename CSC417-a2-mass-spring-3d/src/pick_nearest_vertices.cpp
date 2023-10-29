@@ -3,6 +3,7 @@
 #include <igl/Hit.h>
 #include <igl/ray_mesh_intersect.h>
 #include <igl/unproject.h>
+#include <iostream>
 
 bool pick_nearest_vertices(std::vector<unsigned int> &verts, Eigen::Ref<const Eigen::Vector3d> win, 
                            Eigen::Ref<const Eigen::Matrix44f> view, Eigen::Ref<const Eigen::Matrix44f> proj, Eigen::Vector4f viewport,
@@ -49,8 +50,8 @@ bool pick_nearest_vertices(std::vector<unsigned int> &verts, Eigen::Ref<const Ei
 
     for(unsigned int qi = 0; qi < V.rows(); qi++) {
         if((V.row(qi) - V.row(vid)).norm() < radius) {
-            
-            verts.push_back(qi);
+            verts.push_back(qi); 
+            std::cout << "verts size " << verts.size() << std::endl;
         }
     }
 

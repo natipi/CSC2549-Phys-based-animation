@@ -1,4 +1,4 @@
-# Install script for directory: /Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/extern/libigl/external/glfw
+# Install script for directory: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/extern/libigl/external/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/glfw/src/cmake_install.cmake")
+  include("/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/glfw/src/cmake_install.cmake")
 
 endif()
 

@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d"
+CMAKE_SOURCE_DIR = /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build"
+CMAKE_BINARY_DIR = /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

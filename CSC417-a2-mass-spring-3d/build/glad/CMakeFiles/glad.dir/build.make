@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d"
+CMAKE_SOURCE_DIR = /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build"
+CMAKE_BINARY_DIR = /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build
 
 # Include any dependencies generated for this target.
 include glad/CMakeFiles/glad.dir/depend.make
@@ -70,18 +70,18 @@ include glad/CMakeFiles/glad.dir/progress.make
 include glad/CMakeFiles/glad.dir/flags.make
 
 glad/CMakeFiles/glad.dir/src/glad.c.o: glad/CMakeFiles/glad.dir/flags.make
-glad/CMakeFiles/glad.dir/src/glad.c.o: /Users/natalia/Dropbox/CSQUEEN/David\ Levin\ Physics\ Based\ Animation\ Course/CSC417-a2-mass-spring-3d/extern/libigl/external/glad/src/glad.c
+glad/CMakeFiles/glad.dir/src/glad.c.o: /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/extern/libigl/external/glad/src/glad.c
 glad/CMakeFiles/glad.dir/src/glad.c.o: glad/CMakeFiles/glad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object glad/CMakeFiles/glad.dir/src/glad.c.o"
-	cd "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/glad" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glad/CMakeFiles/glad.dir/src/glad.c.o -MF CMakeFiles/glad.dir/src/glad.c.o.d -o CMakeFiles/glad.dir/src/glad.c.o -c "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/extern/libigl/external/glad/src/glad.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glad/CMakeFiles/glad.dir/src/glad.c.o"
+	cd /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/glad && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glad/CMakeFiles/glad.dir/src/glad.c.o -MF CMakeFiles/glad.dir/src/glad.c.o.d -o CMakeFiles/glad.dir/src/glad.c.o -c /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/extern/libigl/external/glad/src/glad.c
 
 glad/CMakeFiles/glad.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glad.dir/src/glad.c.i"
-	cd "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/glad" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/extern/libigl/external/glad/src/glad.c" > CMakeFiles/glad.dir/src/glad.c.i
+	cd /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/glad && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/extern/libigl/external/glad/src/glad.c > CMakeFiles/glad.dir/src/glad.c.i
 
 glad/CMakeFiles/glad.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glad.dir/src/glad.c.s"
-	cd "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/glad" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/extern/libigl/external/glad/src/glad.c" -o CMakeFiles/glad.dir/src/glad.c.s
+	cd /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/glad && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/extern/libigl/external/glad/src/glad.c -o CMakeFiles/glad.dir/src/glad.c.s
 
 # Object files for target glad
 glad_OBJECTS = \
@@ -93,19 +93,19 @@ glad_EXTERNAL_OBJECTS =
 glad/libglad.a: glad/CMakeFiles/glad.dir/src/glad.c.o
 glad/libglad.a: glad/CMakeFiles/glad.dir/build.make
 glad/libglad.a: glad/CMakeFiles/glad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglad.a"
-	cd "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/glad" && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean_target.cmake
-	cd "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/glad" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glad.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglad.a"
+	cd /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/glad && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean_target.cmake
+	cd /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/glad && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glad.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 glad/CMakeFiles/glad.dir/build: glad/libglad.a
 .PHONY : glad/CMakeFiles/glad.dir/build
 
 glad/CMakeFiles/glad.dir/clean:
-	cd "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/glad" && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean.cmake
+	cd /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/glad && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean.cmake
 .PHONY : glad/CMakeFiles/glad.dir/clean
 
 glad/CMakeFiles/glad.dir/depend:
-	cd "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d" "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/extern/libigl/external/glad" "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build" "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/glad" "/Users/natalia/Dropbox/CSQUEEN/David Levin Physics Based Animation Course/CSC417-a2-mass-spring-3d/build/glad/CMakeFiles/glad.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/extern/libigl/external/glad /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/glad /Users/natalia/Dropbox/CSQUEEN/CSC2549-Phys-based-animation/CSC417-a2-mass-spring-3d/build/glad/CMakeFiles/glad.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glad/CMakeFiles/glad.dir/depend
 
